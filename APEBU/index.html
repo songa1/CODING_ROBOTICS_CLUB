@@ -1,9 +1,47 @@
 <html>
   <head>
     <title>APEBU Index Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap");
+
+      * {
+        color: white;
+      }
+
+      h1 {
+        color: red;
+      }
+      button {
+        background-color: red;
+      }
+
+      p {
+        font-size: 30px;
+      }
+
+      body {
+        background-color: brown;
+      }
+
+      #image1 {
+        width: 500px;
+      }
+
+      #image2 {
+        width: 400px;
+      }
+    </style>
   </head>
   <body>
     <h1>Welcome to APEBU</h1>
+    <h2>Whhbbadjbto APEBU</h2>
     <h2>Welcome to APEBU</h2>
     <h3>Welcome to APEBU</h3>
     <h4>Welcome to APEBU</h4>
@@ -11,7 +49,8 @@
     <h6>Welcome to APEBU</h6>
     <p>This is the APEBU index page.</p>
 
-    <img src="ifoto.jpeg" alt="" width="300">
+    <img id="image1" src="ifoto.jpeg" alt="" />
+    <img id="image2" src="ifoto.jpeg" alt="" />
 
     <ul>
       <li>Item 1</li>
@@ -25,6 +64,49 @@
       <li>Third</li>
     </ol>
 
-    
+    <dl>
+      <dt>HTML</dt>
+      <dd>Hypertext Markup Language</dd>
+      <dt>CSS</dt>
+      <dd>Cascading Style Sheets</dd>
+      <dt>JS</dt>
+      <dd>JavaScript</dd>
+    </dl>
+
+    <form>
+      <label>Name</label>
+      <br />
+      <input type="text" />
+      <br />
+      <label>Email</label>
+      <br />
+      <input type="email" />
+      <br />
+      <label>Message</label>
+      <br />
+      <textarea rows="5"></textarea>
+      <br />
+      <button style="background-color: red; font-size: 20px">Submit</button>
+      <button>Submit</button>
+    </form>
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>John Doe</td>
+          <td>john@example.com</td>
+        </tr>
+        <tr>
+          <td>Augustin</td>
+          <td>augustin@example.com</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>

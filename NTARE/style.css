@@ -1,0 +1,28 @@
+form {
+  width: 50%;
+  background-color: cadetblue;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: brown;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

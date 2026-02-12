@@ -2,18 +2,73 @@
 <html lang="en">
   <head>
     <title>Document</title>
+    
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      body {
+        background-image: url("https://en.igihe.com/IMG/logo/jad20230126-ass-itv-kagame-photo-1-1256x628-1674814058.jpg?1716374573");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #image1 {
+        width: 200px;
+      }
+
+      #image2 {
+        width: 300px;
+      }
+
+      #para1 {
+        font-size: 20px;
+      }
+
+      .yellow {
+        background-color: yellow;
+        color: black;
+      }
+      .blue {
+        background-color: blue;
+        color: white;
+        border: 1px solid brown;
+      }
+    </style>
   </head>
   <body>
-    <h1>Welcome to NTARE</h1>
+    <h1 class="yellow">Welcome to NTARE</h1>
     <h2>Welcome to NTARE</h2>
     <h3>Welcome to NTARE</h3>
     <h4>Welcome to NTARE</h4>
     <h5>Welcome to NTARE</h5>
     <h6>Welcome to NTARE</h6>
 
-    <p>This is the NTARE index page.</p>
+    <p id="para1">This is the NTARE index page.</p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+      mollitia doloremque aliquam. Eaque, blanditiis ipsa. Perspiciatis vitae
+      rerum aliquam quia doloribus iusto, temporibus neque eveniet soluta
+      corrupti quasi facilis.
+    </p>
 
-    <img src="photo.jpeg" alt="Alt" width="400" />
+    <button class="yellow">Click Me</button>
+    <button class="blue">Click You</button>
+    <button class="blue">Click Him</button>
+    <button class="yellow">Click Her</button>
+    <button class="blue">Click Them</button>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <img
+      style="border: 10px solid white"
+      id="image1"
+      src="photo.jpeg"
+      alt="Alt"
+    />
+    <img id="image2" src="photo.jpeg" alt="Alt" />
 
     <ul>
       <li>Item 1</li>
@@ -29,13 +84,13 @@
 
     <form>
       <label>Name:</label>
-      <input type="text" placeholder="eg: Joe Doe"/>
+      <input type="text" placeholder="eg: Joe Doe" />
       <label>Email:</label>
-      <input type="email"  />
+      <input type="email" />
       <br />
       <label>Message:</label>
       <textarea rows="5"></textarea>
-      <BR>
+      <br />
       <button>Submit</button>
     </form>
   </body>
